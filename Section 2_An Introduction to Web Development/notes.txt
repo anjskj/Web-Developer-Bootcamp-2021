@@ -1,0 +1,2 @@
+* Pages are identified by URL and transferred via the HTTP (Hyper-Text Transfer Protocol) Browser Request/Server Response Cycle.
+* Calculator Codepen: https://codepen.io/giana/pen/GJMBEv

@@ -1,0 +1,4 @@
+* https://developer.mozilla.org/en-US/
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+* HMTL Boilerplate = the HTML "skeleton" i.e. !Doctype and the html root-element containing the head and body elements. Add by typing ! and press tab.
+* th !DOCTYPE basically just informs what version of HTML to expect, but doesn´t exclude newer HTML-elements if they were to happen to be in the file.
