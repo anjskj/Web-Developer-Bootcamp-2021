@@ -1,0 +1,15 @@
+* Tables are used for tabular data, NOT for layouts.
+    - table > thead > tr > th + tbody > tr > td + tfoot > tr > td 
+    - attributes: colspan, rowspan
+* Form-element is a container that groups a collections of inputse. 
+    - HTTP-request will be sent: action-attribute is where it will be sent and method-attribute is whether we want to get (default) or post data.
+    - Each input should have a label and be separated with divs.
+    - Input types: the "type"-attribute determines how the input behaves (text, password, color etc.).
+    - Label attribute "for" should match the input attribute "id".
+    - Buttons inside a form are by default submit.
+    - The"name"-attribute on an input refers to the value when the data is sent to the server so it knows what to do with the data sent int he HTTP-request.
+    - Radio buttons-attribute "name" should be the same for all buttons to group them, while "id" and "value" are individual (and usually the same).
+    - Select and Textera are satndalone elements in form controls.
+    - Browser Validations: mainly for guiding the client to insert correct and valid data. "required" - attribute, minlength/maxlength, min/max, "pattern"-attribute (regex) OBS some input-types already have a default pattern, for example email requires an @.
+    - Server Validations: mainly for security.
+* For multiple entry points hold down alt and click the spots where you want to input something.

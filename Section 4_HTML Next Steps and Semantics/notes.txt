@@ -1,0 +1,4 @@
+* HTML5 is the newest version of the HTML specification: https://html.spec.whatwg.org/
+* Entity code reference chart:  https://dev.w3.org/html5/html-author/charref (for special and reserved characters)
+* Semantic markup - meaningful markup-elements (header, nav, main, section, aside, article,summarey, details, footer etc.) making it more crawlable and accessible.
+* Emmet cheet sheet: https://docs.emmet.io/cheat-sheet/
