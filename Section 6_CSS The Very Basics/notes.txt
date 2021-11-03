@@ -1,0 +1,10 @@
+* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+* https://htmlcolorcodes.com/color-names/
+* selector {property1: value; property2: value;}
+* Preferably include as a .css file and reference it in the HTML-head as <link rel="stylesheet" href="app.css">, not recommended to use inline styles or <style>-element.
+* RGB-colors: rgb(0,0,0) is black - rgb(255,255,255) is white, possible to add a 4th variable for opacity that also range from no opacity 0-255 full opacity.
+* Hexadecimal-colors: #000000 is black - #ffffff is white, possible to add a 4th variable for opacity that also range from no opacity 00-ff full opacity.
+* Size units: Relative (em. rem, %) & Absolute (px). OBS for responsive websites use the relative units.
+* https://www.cssfontstack.com/
+* font-family: preferred, back-up, sans-serif/serif/monspaced/fantasy/script;
+
