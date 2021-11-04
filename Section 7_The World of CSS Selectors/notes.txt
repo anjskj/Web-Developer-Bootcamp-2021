@@ -1,0 +1,15 @@
+* https://coolors.co/palettes/trending
+* https://specificity.keegan.st/ (which rule to apply when there is a conflict: ID > CLASS/ATTRIBUTE > ELEMENT)
+* The universal selector: * {prop: value;}. Very rarely used..
+* Combine selectors with a , (comma): selector1, selector2 {prop: value;}
+* ID-selector: #id-name {prop: value;}
+* Class-selector: .class-name {prop: value;}
+* Descendant selector: parent child {prop: value;}
+* Adjacent selector: selector + selector {prop: value;}. Rarely used.. for example h1 + p for selecting the p that comes directly after the h1.
+* Direct child: parent > child {prop: value;}. Only one level down, not nested, while descendant selector can be several levels down in nests. Rarely used.
+* Attribute selector: selector[attribute="value"] {prop: value;}
+* Pseudo-classes: specifies a state of the selectoed element. selector:pseudo-class {prop: value;}. Commonly used: :hover, :active, :checked, :nth-of-type(2n)
+* Pseudo-elements: styles a particular part of the element. selector::pseudo-element {prop: value;}. Commonly used: ::first-letter, ::first-line, ::selection
+* Inline styles are the most specific, should very rarely be used! en element use attribute style="prop:value;"
+* !important will overwrite specificity-rules, use carefully.
+* Inheritance: certain elements inherit by default, some don´t but can be forced to by setting the property-value to inherit. Although some properties are not inheritable, check little blue box on MDN.
