@@ -1,0 +1,15 @@
+* Everything in CSS is a box. 
+* Properties always start from the top and goes clockwise.
+* Width + height = contentarea. BUT if using {box-sizing: border-box} it will also include padding + border.
+* Border Properties: {border-width: 1px 2px 3px 4px;}, {border-style: dotted;}, {border-color: #000000;}, {border-radius: 50%;} 
+    - shorthand {border: width style color;} and then use {border-left-style: value} to style one side seperately.
+* Padding: space between contentbox and border. {padding-left: 10px}. Green in dev-tools
+    - shorthand {padding: 20px 0 10px;} will padd top with 20px right, left and right with 0 px and bottom with 10px.
+* Margin: space between elements, works same way as padding, shorthand {margin: 0 10px;} orange in dev-tools.
+    - common practise is to set body {margin: 0;} 
+* Display-property: used to decide if an element should act as a block or inline-element. Commonly used: {display: block/inline/inline-block/none;}
+* Relative units: 
+    - em: with font-size it is relative to the closest parents font-size, with other properties it is relative to the font-size of the element itself (ex use with padding and border-radius for buttons).
+    - rem: better for nested elements such as lists as it is relative to the root html-elements font-size (by default 16px) and not the closest parent.
+    - %: usually used with width and height properties. Relative to some other value , parent (ex width) or itself (ex line-height)
+    - vh and vw. 
