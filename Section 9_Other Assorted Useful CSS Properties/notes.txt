@@ -1,0 +1,19 @@
+* Transitions: https://easings.net/ 
+* Free images: https://unsplash.com/
+* Google Fonts: https://fonts.google.com/ add link to document-head and style body-element with font-family attribute in the CSS-file (or whichever element you want to use it on). 
+* Transperancy
+    - Alpha-channel: added as the 4th value on rgba(0,0,0,0)-rgba(255,255,255,255)
+    - Opacity: property that is set on the element, its content AND its descendants. Goes from completely transperant 0-1 no transperancy.
+* Position-property: used with properties top, bottom, left and right.
+    - static: default position, won´t shift if top, bottom, left or right is changed.
+    - relative: relative position within its parent-container when using top, bottom, left and right wihtout affecting other elements.
+    - absolute: relative to the body (or to its positioned parent if it is nested within another positioned element).
+    - fixed: element will stay in the same spot even when scrolling the page, relative to the body, used for nav-bars.
+    - sticky: similar to fixed but will start with scrolling along with its ccontainer until it hits the top of the page and then it will become fixed.
+* Transition-property: set on the original CSS style and not the pseudo-class styling, commonly used with :hover.
+    - shorthand {transition: property to animate duration/timing-function/delay;} separated with space. 
+* Transform-property: set on the pseudo-class if used with for example :hover.
+    - {transform-origin: bottom-right;} - setting rotation axis.
+    - shorthand {transform: rotate(45deg) scale(0.5) translate(200px, 200px) skew(15deg, 25deg);}
+* Background shorthand: {background: image/position/size;} separated with space OBS if using size syntax needs to be position/size.
+
