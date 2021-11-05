@@ -1,0 +1,19 @@
+* Flexbox: method for laying out items in rows and columns dynamically.
+* Flex-properties set on the container of the items you want to lay out dynamically.
+    - {display: flex;} turning the flex-prop "on", the content will no longer overflow to container (can be turned off with flex-wrap).
+    - {flex-direction: row/row-reverse/column/column-reverse;} - how the items should be distributed on the x and y-axis.
+    - {justify-content: flex-start/flex-end/center/space-between/space-around;} how the content is distributed across the main axis depending on the flex-direction (row/row-reverse/column/column-reverse).
+    - {align-items: flex-start/flex-end/center/space-between/space-around/baseline;} how the content is distributed across the cross axis depending on the flex-direction.
+    - {flex-wrap: no-wrap/wrap/wrap-reverse;} how the items act on the cross-axis when the container shrink/grow in size, moving items instead of adjusting their size to fit in the conteiner row/column.
+    - {align-content: flex-start/flex-end/center/space-between/space-around;} the space between columns or rows, depending on flex-direction and flex-wrap.
+* Flex-properties set on the items in a container.
+    - Set a min and max-width to ensure they don´t grow or shrink too much.
+    - {align-self: flex-start/flex-end/center/space-between/space-around;} similar to align-content BUT set on individual items in the flex container!
+    - {flex-basis: 1px;} the starting-point size of the item on the main axis, hence dependant on the flex-direction.
+    - {flex-grow: 1} the amount of space the element will take up if there is available space relative to the other elements, unitless  number.
+    - {flex-shrink: 1} the min amount of space the element will take up if there isn´t enough available space relative to the other elements, unitless number.
+    - shorthand {flex: flex-grow/flex-shrink/flex-basis;}
+* Responsive design: website responds to the device it is on (screen size, orientation etc.)
+* Media queries: allows us to modify styles depending on device, screen size, orientation etc.
+    - @media (device parameter) and (another deviceparameter9) {css}
+    - set min-width and smallest screensizes first OR set max-width and largest screensizes first OR set min and max-width on all media-queries.
