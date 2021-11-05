@@ -1,0 +1,3 @@
+* CSS reset: https://meyerweb.com/eric/tools/css/reset/
+    - normalizing all CSS to ensure it looks the same on all browsers, "blank space".
+* Mobile-first: always start working on the smallest size.
