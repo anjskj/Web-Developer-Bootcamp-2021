@@ -1,0 +1,15 @@
+* https://getbootstrap.com/docs/4.5/getting-started/introduction/
+* Third-party CSS-tool, using classes instead of writing own CSS.
+* Boostrap: components and grid system.
+* Included as a stylesheet-reference in head: <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    - Can also be downloaded and included as a normal stylesheet in your folder.
+    - include the scripts just before the end of the </body> - tag.
+* Used by adding bootstrap-classes to elements, look in documentation.
+    - utilities (flex (example justify-content-lg-center), border, shadow, spacing, display etc) quick ways of applying CSS styles.
+    - components (buttons, badges, alerts, forms, navbars etc.)
+    - content (typogrophy (display, blockquotes etc.). images (img-fluid etc))
+    - grid (in a container > col-row > col-sm/md/lg/xl/xxl-6) Every row has 12 units of space to divide in columns and can be set differently depending on screensize.
+    - icons (inserted as SVG's, copy path and insert where you would have inserted text.)
+* .container contains and pads, it is responsive and fixed-width (default or responsive versions -xs, -s, -m. -l, -xl, -fluid) 
+    - default is full width on small screens and padded on bigger.
+* https://fontawesome.com/ for more icons.
