@@ -1,0 +1,28 @@
+* String: string of characters that represent text
+    - let firstName = 'Anja'; (can use both single- & double-quotes.)
+    - Indexed starting with the first character in position 0, called with firstName[0] would output "A". 
+    - If trying to call on an index that doesn´t exist result will be undefined.
+    - concatenation: let fullName = firstName + " " + lastName;
+    - typeof fullName; will output the variabel type.
+* String Porperties:
+    - variableName.length; outputs the total number of characters.
+* String Methods:
+    - Can be destructive (changing the value) or non-destructive (not changing the value, needs to be stored in a new variable)
+    - variableName.method();
+    - .toUpperCase(); non-destructive, makes everything uppercase (.toLowerCase(); also exist)
+    - .trim(); non-destructive, removes spaces in beginning and end of string.
+    - chaining methods: variableName.toUpperCase().trim();
+* String Methods with arguments (check MDN)
+    - .indexOf(arg); returns the first occurence of the argument value, if not found output will be -1.
+    - .slice(beginIndex[, endIndex]); extracts a portion of a string, outputs a new string, non-destructive.
+    - .replace('replace', 'with'); replaces the first instance of the matching instance (.replaceAll(); exist but not fully implemented?)
+    - .repeat(count); hoew many times variablevalue should be repeated, non-destructive. 
+* String Template Literals:
+    - `You bought ${3 + 4} ${product.toUpperCase()}s. Total is $${price * qty}`;
+* Null- intentional absence of value, must be assigned. 
+    - No one is logged in: let loggedInUSer = null; Anja loggs in: loggedInUser = 'Anja';
+* Undefined - unintentional absence of value or are undefined. "I don´t know"
+* Math-object: contains properties and methods for maths.
+    - properties: Math.prop; .PI
+    - methods: Math.method(); .round(num), floor(decimalNum), ceil(decimalNum), .random() gives random number between but not including 0-1.
+    - let ranNum = Math.floor(Math.random() * 10) + 1;
