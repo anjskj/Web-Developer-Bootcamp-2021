@@ -1,0 +1,18 @@
+* https://codepen.io/ste-vg/details/GRooLza
+* Primtive tyoe variables: number, string, boolean, null, undefined (and symbol, bigint).
+* // to comment out a line, /*to comment out several lines*/
+* PEMDAS (parenthesis, equation, multiplication, division, addition, subtraction)
+* % modulus "remainder operator" 9 % 2: 2 goes into 9 as a whole number 4 times (=8), 1 is the remainder. Usually used to determine if a number is even or odd (evenly divided by 2).
+* ** exponent operator  2**4 = 16 (2*2*2*2)
+* NaN - considered a number in JS, a value that is not a number, for example 0/0. Not possible to do math with NaN.
+* Variables: naming and storing values for later use.
+    - syntax: let variableName = value;
+    - updating a value: variableName += 1; OR variableName++;
+    - const:  constant, a value that cannot be re-assigned/updated
+    - let: can be re-assigned/updated
+    - var: existed before const and let, DO NOT USE!
+* Booleans:
+    - value is either true or false.
+    - let isAlive = true;
+    - often used in logic/decissions
+* Identifier naming conventions: camelCase, no spaces or underscores,  never starting with a digit.
