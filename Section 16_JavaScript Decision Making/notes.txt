@@ -1,0 +1,19 @@
+* https://www.unicode.org/charts/PDF/U0000.pdf - the numeric code of characters ("value" of the characters)
+* Comparison operators: comparing two values
+    - greater than > and less than < , returns a boolean true or false.
+    - >= and <= , similar to above.
+* Equality operators: 
+    - == and != checks for equality/non-equality of value but will try to coerse two different types that are compared to the same type.
+    - === and !== strict comparison of value AND type, use this as much as possible.
+* Include script-element in the end of the html-body <script src="app.js"></script> as it should run after page has been loaded.
+* Print in console with console.log(); there are more methods attahced to the console object such as .clear().
+* Conditionals:
+    - If-statement: if (condition that evaluates true or false) {code to run} else if (true/false) {code to run} else {code to run}
+    - nesting conditionals for example when checking passwords and getting specific errormessages (for example length and not including space)
+* Falsy values: false, o, "", null, undefined, NaN. for exxample if a user doesn´t enter an inout it will be an empty string => falsy --> can be used in an if-statement to ensure that the user has entered something.
+* Truthy values: everything else:-)
+* Logical operators: combining expressions
+    - &&: both sides must be true, use for ranges, always run before || so no need for parenthesis.
+    - ||: one of the sides must be true
+    - !:  returns true if expression is false, negates the value. let isAlive = true; !(isAlive) -> isAlive is false.
+* Switch-statement: replaces multiple if-statements, key-word break breaks the cycle when it hits the matching statement, if not using it the rest of the cases will also be printed.
