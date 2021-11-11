@@ -1,0 +1,22 @@
+* Data structure: collection of data.
+    - arrays, objects
+* Arrays: ordered collection of values separated by commas, index starting at 0.
+    - can contain different data types.
+    - let colors = ['green','blue']; colors[0] access to 'green'.
+    - properties: .length ( always one greater than the maximum index as the index starts at 0)
+* Array Methods (destructive to the original array):
+    - .push(item); adding an element to the end of the array (queu).
+    - .pop(); removing element from the end.
+    - .unshift(item); add to start (stack).
+    - .shift(); remove from start
+* More Array-methods:
+    - let array3 = array1.concat(array2); making a new concatenated array from 2 other arrays. Non-destructive.
+    - .include(item); checks if the array contains an element, returns true or false.
+    - .indexOf(item); will give the index of the element (only the first occurence), if not found -1.
+    - .reverse(); reverses the order of the array. OBS destructive.    
+    - .slice(start index, end index); a copy of a portion of an array. Non-destructive.
+    - .splice(start index, how many to delete, item to insert); destructive, removes and/or add elements.
+    - .sort(); used with functions since it converts everything to strings and converts to the UTF-number.
+* Not possible to use == or === with arrays as it refernces to the allocated space in memory and not the content of the arrays (unless it is a direct copy).
+* Safest to use const with arrays, possible to still change the content BUT not possible to reassign the reference (for example changing to a string or a number).
+* Nested arrays: 2 levels of arrays: const board = [[x,o, x], [o, o, x], [x,o, null]];

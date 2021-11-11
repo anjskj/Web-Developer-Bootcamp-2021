@@ -1,0 +1,20 @@
+https://www.udemy.com/course/the-web-developer-bootcamp/
+
+GitHub: https://github.com/rishipurwar1/The-Web-Developer-Bootcamp-2020/tree/47
+
+Links: 
+https://developer.mozilla.org/en-US/
+https://dev.w3.org/html5/html-author/charref
+https://entitycode.com/
+https://fonts.google.com/
+https://unsplash.com/
+https://meyerweb.com/eric/tools/css/reset/
+https://getbootstrap.com/
+https://fontawesome.com/ (for the icons that doesn´t exist in Bootstrap).
+
+PDF:s 
+https://www.unicode.org/charts/PDF/U0000.pdf
+
+VS Code Extensions:
+- Material Theme (in settings-> Appearance-> Theme: Pale Night High Contrast) 
+- Emmet: built in to VS Code, already installed. https://emmet.io/
