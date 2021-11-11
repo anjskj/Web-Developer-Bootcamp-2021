@@ -1,0 +1,7 @@
+* Object literals are collections of properties:
+    - Property = key-value pair, accessed using the key instead of an index.
+    - const person = {firstName : 'Anja', lastName: 'Skjaerbaek', age: 37, hobbies: ['cats', 'dogs', 'jumping']};
+    - person.firstName will return 'Anja'. person['firstName'] will also return Anja and is more dynamic as you can use i variable as the key.
+    - Updating: person.firstName = "Konrad";
+    - Adding: person.city = "Malmö";
+    - Very common with nested combinations of arrays and objects, a shoppingcart for example is usually an array with a bunch of objects that has a name, price and quantity.
