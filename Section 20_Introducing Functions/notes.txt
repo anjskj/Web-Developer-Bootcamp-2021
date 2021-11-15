@@ -1,0 +1,10 @@
+* Reusable procedures: definition & execution
+* Every method IS a function.
+* Definition: function funcName(){do something when we execute the function..}
+* Execution: funcName();
+* Arguments - inputs to a function. function funcName (firstName, lastName) {console.log(`Hi, ${firstName}!`)};
+    - funcName("Anja", "Skjaerbaek");
+    - if more than one argument ORDER MATTERS! order in the functioncall and the arguments need to be the same.
+* Return key-word: the output of a function that can be captured and reused.
+    - return result; ends the execution of the function and specifies the value to be returned by that function.
+

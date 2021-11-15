@@ -1,0 +1,18 @@
+* Writing a guessing game: https://www.youtube.com/watch?v=VG27YwzEFB8
+* Loops: for loop. while loop, for..of loop, for..in loop.
+    - For Loop:  for (intialExpression; condition; incrementExpression) {code to run each iteration;} 
+        - for (let i = 1; i <=10; i++){console.log(i);} 
+        - use for set number of iterations
+        - Always make sure there is a definite stop to the loop, infinite loops are bad.
+        - Looping over an array: for (let i = 0; i > animals.length; i++){console.log(i, animals[i]);}
+        - Nested loops: use when iterating over nested data structures
+    - While Loop: while (!gameOver) {player one move, player 2 move etc..}
+        - use for unknown number of iterations.
+        - break key-word to stop the execution of the loop.
+    - For..of Loop: for(let dog of dogs){console.log(dog)}
+        - iterating over arrays without the index.
+    - For..in Loop: for(let person in people) {conosle.log(person.firstName)}
+        - Iterating over object literals
+        - Object.keys(people) will give all the keys of the array, Objects.values(people) will give all the values.
+        - for (let age of Object.values(people)) {total += age;} -> will add all the ages and add them to the total.
+        
