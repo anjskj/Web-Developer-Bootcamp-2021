@@ -1,0 +1,19 @@
+* Scope: variable visability
+    - Function scope: variable defined in the function is only visible within the function.
+    - Block scope: variables defined inside a conditional/loop etc is only visible within the block (UNLESS using key-word var).
+    - Lexical scope: an inner function nested inside one or more functions has access to variables from all outer functions.
+* Function Expressions: storing a function in a variable instead of naming it.
+    - const add = function(x,y){return x + y;}
+    - functions are values in JS, can be treated as any other variable.
+* Higher order functions: functions that operate on or with other functions
+    - accepts functions as arguments - inserted as a variable without ().
+    - returns a function - return function () {console.log('hello!')} and catch it in a variable.
+* Defining methods: a function that has been placed as a property on an object.
+    - Math.random() Math is the object and random is the method containing a function that creates  a random number between 0-1.
+    - Very method is a function, but not all functions are methods.
+    - created as key-value pairs where the prop-name is the key and the function is the value.
+    - shorthand key(){value;}
+* 'this'-keyword: used to access properties on the same object, for example to access the color of the cat object use this.color
+    - most commonly used inside an object of a method.
+* Try/catch: catching errors and preventing them from breaking/exiting the code, it will just move on the the next line of code.
+    - Uncaught referencError: the method can´t find the reference.
