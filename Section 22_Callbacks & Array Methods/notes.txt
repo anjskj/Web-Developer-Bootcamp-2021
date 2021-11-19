@@ -1,0 +1,33 @@
+* forEach: runs a code ionce per item in an array (used more before for..of loop existed).
+    - numbers.forEach(function(num){
+        if (el % 2 === 0){
+            console.log(num)}
+    })
+* map: creates a new array using the return value, mapping an array from one state to another (wjen for example needing portions of data)
+    - const biggerNumbers = numbers.map(function(num){
+        return num*num;
+    })
+* Arrow functions: doesn´t work with IE.. more compact than a regular function expressions.
+    - const square = (x,y) => {return x + y;}
+    - if no arguments use an empty ()
+    - if only one argument, skip () OBS always check company conventions!
+    - implicit return, possible to skip the return key-word, the curly braces AND the parenthesis IF the expression it is a one-liner.
+        const isEven = num => num % 2 === 0
+* Scheduling a function:
+    - setTimeout: expects a callback and a number of milliseconds to delay the execution that will run once.
+        setTimeout(() => {console.log("Hello!)}, 3000)
+    - setInterval: expects a callback and will repeat it with a number of milliseconds between each call.
+       const id = setInterval(() => {console.log (Math.random())}, 2000); 
+       clearInterval(id); this will stop the interval.
+* Filter function: used to filter an array and make a new subset, non-destructive.
+    - const evenNumbers = numbers.filter(n => {return n % 2 === 0}) will return only even numbers.
+* Boolean-methods:
+    - Every: checks if every element in an array passes the test and return true or false.
+        const allPassed = exam.every(score => score >= 50) - all scores need to be above 50.
+    - Some: checks if some of the elements passes the tests and return true or false
+        const somePassed= exam.some(score => score >= 50)) - at least one score needs to be above 50.
+* Reduce-method: results in a single value.
+    - .reduce((accumulator, currentValue)=>{return accumulator + currentValue;}, initialVal); this will sum an array, the currentValue will be used as the accumulatro in the next iteration until only one number left.
+    - can also contain an initial value as a second argument. 
+* Arrow functions & "this"
+    - this always needs to be in a function so it knows what to refer to, hence not used to defined a method... so if using this with arrowfunctions it needs to be inside a defined regular function to know what to refer to.
