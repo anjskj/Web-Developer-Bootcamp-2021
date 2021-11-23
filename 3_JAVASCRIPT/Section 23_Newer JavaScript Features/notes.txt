@@ -1,0 +1,11 @@
+* DefaultParams - assign the parameter to a default value, which will only be used if no argument has been passed along. 
+    - OBS order matters so best is to have the default parameters come second/last/after all the parameters that are NOT default.
+* Spread: allows an iterable to spread into seperate arguments, example Math.max(...nums) -> making it iterable for the function Math.max to find the max in the array.
+    - very usable for when combining several arrays into a new one.
+    - when using with objects it will copy keyvalue pairs, if conflicting pairs from two separate objects order matters and last one wins.
+* Rest params: collects all the remaining (...rest of) arguments and puts them in an actual array
+    - the arguments object holds all the arguments passed to the function, looks like an array but does NOT act like one.    
+* Destructuring: unpacking/extracting/singling out values from arrays, objects or params.
+    - Arrays: const [gold, silver, bronze, ...everyoneElse] = scores; making three standalone variables and an array of everyone else, based on position.
+    - Objects: const { email, firstName, lastName, city, bio } = user; not based on position but on key.
+    - Params:function fullName({ firstName, lastName }) {return `${firstName} ${lastName}`}; mainly used with objects since only using the values needed in the object. 
