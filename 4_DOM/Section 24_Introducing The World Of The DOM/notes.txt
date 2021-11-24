@@ -1,0 +1,28 @@
+* DOM - Document Object Model -> A JavaScript representation of a website. Each element gets its own JS object, with a relationship between them (parent/children/siblings).
+* The Document Object: a JavaScript object that is cretaed automatically by the browser whenever we load a new page based on the content of the page.
+    - console.dir(document) will show all the properties in the JavaScript object.
+    - "the root of the tree"
+*  Selecting an element:
+    - const idElement = document.getElementByID('idName')
+    - const allImages = document.getElementsByTagName('img') -> returns a HTML-collection of all images and makes it iterable (OBS NOT AN ARRAY!).
+    - const classElements = document.getElementsByClassName('className') -> same as getelementsByTagName but for classes instead of elements.
+    - document.querySelector('#idName/.className/img:nth-of-type(2)/a[title = "Chicken"]') -> returns the FIRST match, no collections, using CSS tags.
+    - document.querySelectorAll('img #chicken') -> as querySlector but returns a collection of all images with the class 'Chicken'.
+* Manipulating an element: using JS to impact the HTML and CSS with properties & methods.
+    - idElement.innerText = 'I am now changing all the text!'; ignores the tags and hidden text
+    - idElement.textContent; - retrieving ALL the text including hidden.
+    - document.querySlector('#greet').innerHTML += '<i>Hello!</i>' - updates or adds to the content, including markup.
+    - Attributes: element, id, class, src, input type etc are also properties that can be manipulated. document.querySelector('#banter').id = 'banner';
+    - chickens.getAttribute('class') - to get the class, chickens.setAttribute('class', 'chickens') to set the class to chickens.
+    - idElement.style will not contain any styles from style-sheets, only inline styles! Can be manipulated via Javascript and act as inline styles (overwrite style-sheets), but generally not recommended.
+    - window.getComputedStyle(idElement).color - will show all the computed styles on an object, or in this case only the color.
+    - idElement.classList.add('class1', 'class2') - adding more classes to an element, contains more methods, like toggle that turns the class on and off!
+    - idElement.parentElement/children[0]/nextElementSibling/previousElementSibling
+    - const newImage = document.createElement('img') & document.body.appendChild(newImg);
+    - body.append('img1', 'img2') inserting at the end of the parent.
+    - body.prepend('img1', 'img2') inserting at the beginning of the parent.
+    - h1.insertAdjacentElement('afterend', h2) h2 is inserted as the next sibling after h1.
+        - h1.after(h2) h2 is inserted as the next sibling after h1, not fully supported.
+    - ul.removeChild(li) removes the first child 
+    - idElement.remove() removes the selected element.
+
