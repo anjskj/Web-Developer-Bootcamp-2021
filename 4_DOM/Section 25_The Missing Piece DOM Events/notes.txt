@@ -1,0 +1,22 @@
+* Events - responding to user inputs and actions (EventHandler).
+* Inline events: writing the JS directly in the html-file. 
+    - <button onclick="alert('You clicked me!'); alert('Stop clicking!')">Click Me!</button>
+    - not recommended since cluttering markup and not DRY.
+* Events in JS-file (note recommended): document.querySelector('button').onclick = function() {alert('You clicked me!')};
+    - ok option but not the best, not possible to add multiple properties on same event.
+* Events in JS-file (recommended): .addEventListener('click', () => {alert('You clicked me!')})
+    - the best option since possible to use multiple properties on the same object.
+    - .removeEventListener 
+* Using keyword this instead of JS element in generic functions for multiuse and keeping it DRY.
+* Event Object is automatically passed in to the callback, contains information about the event.
+    - used for example to mkae something appear where you clicked and with keyboard events.
+    - common keyboard events ('keydown', 'keyup') e.key (actual location on keyboard) and e.code (the letter/symbol), pass in as a parameter to a function to access.
+* Form Events: prevent refreshing the page when submitting a form by default
+    - form action="location where the data should be sent"
+    - prevent from changing the page when submitting a form by adding the e.preventDefault() method, when using the data on the same page.
+    - .value property to catch or set the value of the JS-element.
+    - Change event - listens to valuechange inside an input (after leaving the input)
+    - Input event - fires when the input changes, no need to leave the input! 
+* Event Bubbling: eventlisteners nested inside other elements with eventlisteners. To stop it add .stopPropogation() method to the event object.
+* Event Delegation: add eventlistener to a parent that is then inherited to the children (for example adding an event to the ul that is inherited to the lis) by using the target on the children via the event object.
+    - e.target.remove();
